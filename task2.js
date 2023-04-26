@@ -4,19 +4,19 @@ document.addEventListener("DOMContentLoaded", function () {
       id: 1,
       title: "Зари",
       img: "images/trousers/1.jpg",
-      price: "690 грн",
+      price: "690 рублей",
     },
     {
       id: 2,
       title: "Бест трикотаж",
       img: "images/trousers/2.jpg",
-      price: "990 грн",
+      price: "990 рублей",
     },
     {
       id: 3,
       title: "Ревели",
       img: "images/trousers/3.jpg",
-      price: "890 грн",
+      price: "890 рублей",
     },
   ];
   const CATALOGTSHIRT = [
@@ -24,19 +24,19 @@ document.addEventListener("DOMContentLoaded", function () {
       id: 1,
       title: "Своя культура",
       img: "images/t-shirt/1.jpg",
-      price: "23690 грн",
+      price: "23690 рублей",
     },
     {
       id: 2,
       title: "Инферно",
       img: "images/t-shirt/2.jpg",
-      price: "3990 грн",
+      price: "3990 рублей",
     },
     {
       id: 3,
       title: "Зила",
       img: "images/t-shirt/3.jpg",
-      price: "4890 грн",
+      price: "4890 рублей",
     },
   ];
 
