@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="authorization">
+        <div class="container">
+          <form action="#" class="form">
+            <label class="form__label" for="phone"
+              >Оставьте свой номер телефона</label
+            >
+            <div class="input-wrap">
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                class="form__input__phone"
+                placeholder="+7(___)___-__-__"
+              />
+              <input class="form__input__btn" type="submit" value="Отправить" />
+            </div>
+          </form>
+        </div>
+      </div>
+      <section class="catalog">
+        <div class="container">
+          <div class="catalog__inner">
+            <input
+              id="searchbar"
+              class="search__input"
+              type="text"
+              placeholder="Search"
+            />
+            <div id="hidden" class="hidden">
+              <div class="catalog__items">
+                <div class="sidebar">
+                  <div class="sidebar__title">Категории</div>
+                  <ul class="sidebar__items">
+                    <li class="sidebar__item">
+                      <div class="sidebar__item__title">Брюки</div>
+                      <div class="sidebar__item__count--trousers"></div>
+                    </li>
+                    <li class="sidebar__item">
+                      <div class="sidebar__item__title">Майки</div>
+                      <div class="sidebar__item__count--T_shirt"></div>
+                    </li>
+                  </ul>
+                </div>
+
+                <ul class="product__items"></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="task1.js"></script>
+    <script src="task2.js"></script>
+  </body>
+</html>
